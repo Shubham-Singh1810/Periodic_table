@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/* navigation start */
+.navigation{
+    display: flex;
+    padding: 0px 20rem;
+    justify-content: space-between;
+    background-color: azure;
+    border-bottom:2px solid gray;
+    
+}
+.brandname{
+    font-size: 3rem;
+}
+.navcenter{
+    font-size: 2.5rem;
+    color: red;
+}
+.navright{
+    font-size: 1.5rem;
+}
+.socialmedia{
+    margin-right: 1rem;
+   
+   
+}
+/* navigation end */
+.container{
+    background-image: url("../bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display:flex;
+    width: 100%;
+}
+table{
+    
+    justify-content: center;
+}
+.table1{
+    padding: 2rem;
+
+}
+
+td{
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 10rem;
+}
+.table2{
+    margin-top: 2rem;
+    margin-left: 15rem;
+}
+
+/* putting colors to element start */
+#a1,#a6,#a7,#a8,#a9,#a15,#a16,#a17,#a34,#a35,#a53{
+    background-color: chartreuse;
+}
+#a3,#a11,#a19,#a37,#a55,#a87{
+    background-color: orangered;
+}
+#a4,#a12,#a20,#a38,#a56,#a88{
+    background-color: wheat;
+}
+#a2, #a10, #a18, #a36,#a54,#a86{
+    background-color: skyblue;
+}
+#a21,#a22,#a23,#a24,#a25,#a26,#a27,#a28,#a29,#a39,#a40,#a41,#a42,#a43,#a44,#a45,#a46,#a47,#a72,#a73,#a74,#a75,#a76,#a77,#a78,#a79,#a104,#a105,#a106,#a107,#a108{
+    background-color: orange;
+}
+#a57a71,#a57,#a58,#a59,#a60,#a61,#a61,#a62,#a63,#a64,#a65,#a66,#a67,#a68,#a69,#a70,#a71{
+    background-color: orchid;
+}
+#a89a103, #a89,#a90,#a91,#a92,#a92,#a93,#a94,#a95,#a96,#a97,#a98,#a99,#a100,#a101,#a102,#a103{
+    background-color:palevioletred;
+}
+#a109,#a110,#a111,#a112,#a113,#a114,#a114,#a115,#a116,#a117,#a118{
+    background-color: gainsboro;
+}
+#a13,#a30,#a31,#a48,#a49,#a50,#a80,#a81,#a82,#a83,#a84,#a85{
+    background-color: whitesmoke;
+}
+#a5,#a14,#a32,#a33,#a51,#a52{
+    background-color: yellowgreen;
+}
+td:hover{
+    box-shadow:2px 2px 3px black ,-2px -2px 3px gray;
+    cursor: pointer;
+}
+.defination{
+    font-size: 1.5rem;
+    width: 20%;
+    border: 1px solid gray;
+    /* background-color:azure; */
+    padding: 1rem;
+}
+.messagebox{
+    width: 30%;
+    font-size: 2rem;
+    color:red;
+}
+.heading{
+    font-size: 2rem;
+    color: black;
+}
+/* putting colors to element end */
+.developersid2{
+    display: none;
+    font-size: 2rem;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+/* socialmediaicon start */
+.fa-facebook{
+    color:blue;
+}
+.fa-instagram{
+    color: orangered;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-github{
+    color: black;
+    background-color: white;
+   
+}
